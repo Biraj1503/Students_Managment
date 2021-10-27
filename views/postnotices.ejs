@@ -11,16 +11,5 @@
               <input style="width:550px;margin-left:280px" type="submit" value="SUBMIT NOTICES" class="btn btn-primary mt-2">
           </form>
       </div>
-
-      <div>
-          <%for(n of notices){%>
-              <ul>
-                <li><p><%=n.notice%></p>
-                    <a href="/notice/<%=n._id%>" class="btn btn-success">Edit</a>
-                    </li>
-                      
-                </ul>
-          <%}%>
-      </div>
   </div>
 <%-include('./Partials/footer.ejs')%>

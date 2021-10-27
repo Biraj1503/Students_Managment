@@ -30,7 +30,7 @@ exports.allnoticesGetController=(req,res,next)=>{
 }
 
 exports.editNotices=(req,res,next)=>{
-	const {_id} = req.params
+	/*const {_id} = req.params
 
 	let {notice} = req.body
 
@@ -40,5 +40,5 @@ exports.editNotices=(req,res,next)=>{
 	})
 	.catch(err=>{
 		console.log(err)
-	})
+	})*/
 }
