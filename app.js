@@ -28,6 +28,7 @@ var store = new MongoDBStore({
 
 const Midalware = [
 	express.static('Public'),
+	morgan('dev'),
 	express.urlencoded({extened:true}),
 	express.json(),
 	session({
