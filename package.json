@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "npm run test",
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "dev":"node app.js"
   },
   "keywords": [
     "Student",
@@ -29,5 +30,9 @@
   "devDependencies": {
     "morgan": "^1.10.0",
     "nodemon": "^2.0.12"
+  },
+
+  "engines":{
+    "node":"12.13.0"
   }
 }
