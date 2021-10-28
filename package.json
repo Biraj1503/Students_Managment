@@ -4,7 +4,9 @@
   "description": "Student Managment",
   "main": "app.js",
   "scripts": {
-    "start": "app.js"
+    "test": "npm run test",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "Student",
@@ -33,5 +35,5 @@
   "engines": {
     "node": "6.11.0",
     "npm": "6.12.0"
-  }
+  },
 }
