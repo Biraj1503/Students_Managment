@@ -4,7 +4,6 @@
   "description": "Student Managment",
   "main": "app.js",
   "scripts": {
-    "test": "npm run test",
     "start": "app.js"
   },
   "keywords": [
@@ -34,5 +33,5 @@
   "engines": {
     "node": "6.11.0",
     "npm": "6.12.0"
-  },
+  }
 }
