@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "npm run test",
-    "start": "nodemon app.js",
-    "dev":"node app.js"
+    "start": "app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "Student",
