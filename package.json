@@ -4,6 +4,7 @@
   "description": "Student Managment",
   "main": "app.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
@@ -30,8 +31,8 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.12"
   },
-
   "engines": {
-    "node": "12.13.0"
+    "node": "12.13.0",
+    "npm": "6.12.0"
   }
 }
